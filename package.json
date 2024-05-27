@@ -34,13 +34,17 @@
             },
             "risk.manager@tester.sap.com": {
               "password": "initial",
-              "id": "risk.manager@tester.sap.com", 
+              "id": "risk.manager@tester.sap.com",
               "roles": [
                 "RiskManager"
               ]
             }
           }
         }
+      },
+      "API_BUSINESS_PARTNER": {
+        "kind": "odata-v2",
+        "model": "srv/external/API_BUSINESS_PARTNER"
       }
     }
   }
